@@ -1280,7 +1280,7 @@ func createPodStatusReadyFamilyGenerator() generator.FamilyGenerator {
 
 func createPodStatusReadyTimeFamilyGenerator() generator.FamilyGenerator {
 	return *generator.NewFamilyGenerator(
-		"kube_pod_status_ready_time",
+		"affirm_kube_pod_status_ready_time",
 		"Readiness achieved time in unix timestamp for a pod.",
 		metric.Gauge,
 		"",
